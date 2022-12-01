@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap");
+
+* {
+  font-family: Poppins;
+}
+
+.h1 {
+  color: coral;
+  text-decoration-line: underline;
+}
+
+.h2 {
+  font-size: 12px;
+  position: absolute;
+  right: 200px;
+  top: 10px;
+}
+
+.generatebutton {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #bdbdbd;
+  background-color: coral;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  right: 90px;
+  top: 20px;
+}
+
+.register-main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+
+  background-size: cover;
+}
+
+.card-main {
+  align-items: center;
+  height: 80vh;
+  width: 200vh;
+  background-image: url("https://img.freepik.com/free-vector/topographic-contour-lines-map-seamless-pattern_1284-52862.jpg?w=740&t=st=1669556917~exp=1669557517~hmac=61ef0e3570799b5891d3d368aaa0694c06426b200fb4457ef0a7967d1425ab43");
+  position: relative;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 0px 5px 3px rgba(189, 189, 189, 1);
+  -moz-box-shadow: -1px 0px 5px 3px rgba(189, 189, 189, 1);
+  box-shadow: -1px 0px 5px 3px rgba(189, 189, 189, 1);
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -35%);
+  border-radius: 10px;
+}
+
+.input-fields {
+  margin: 5px;
+  height: 30px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid coral;
+  outline: none;
+  border-radius: 10px;
+}
+
+.input-fields:focus {
+  border: 2px solid #ffc107;
+}
+
+.input-btn {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: 1px solid #bdbdbd;
+  background-color: coral;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.input {
+  pointer-events: none;
+}
+
+.home-main {
+  text-align: center;
+  padding: 20px;
+}
+
+.add-password {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.password-main {
+  position: relative;
+  top: 65px;
+  padding: 0 20px;
+}
+.password-data {
+  border-radius: 5px;
+  display: flex;
+  gap: 40px;
+  border: 30px;
+  top: 60px;
+  background-color: coral;
+  padding: 10px;
+  justify-content: center;
+}
+
+.password-display {
+  font-size: 15px;
+}
+
+.eye-icon {
+  margin-top: 11px;
+  color: #313131;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-top: 12px;
+  color: #313131;
+  cursor: pointer;
+}
+
+.modal-main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.close-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.logout-button {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.copy {
+  position: absolute;
+  right: 15px;
+  top: 65px;
+  font-size: 26px;
+  cursor: pointer;
+}
